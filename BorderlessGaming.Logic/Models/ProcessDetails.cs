@@ -48,7 +48,7 @@ namespace BorderlessGaming.Logic.Models
             {
                 try
                 {
-                    if (ProcessHasExited)
+                    if (ProcessHasExited || _windowHandle == IntPtr.Zero)
                     {
                         return IntPtr.Zero;
                     }
