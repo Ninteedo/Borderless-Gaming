@@ -38,7 +38,7 @@ namespace BorderlessGaming.Logic.Models
         private async void GetWindowTitle()
         {
            await TaskUtilities.StartTaskAndWait(() => { WindowTitle = Native.GetWindowTitle(WindowHandle); },
-                Config.Instance.AppSettings.SlowWindowDetection ? 10 : 2);
+                Config.Instance.AppSettings.WindowDetectionInterval);
         }
 
         // Automatically detects changes to the window handle
@@ -127,7 +127,7 @@ namespace BorderlessGaming.Logic.Models
                  var styleCurrentWindowStandard = Native.GetWindowLong(WindowHandle, WindowLongIndex.Style);
                  var styleCurrentWindowExtended = Native.GetWindowLong(WindowHandle, WindowLongIndex.ExtendedStyle);
                  targetable = styleCurrentWindowStandard.HasTargetStyles() || styleCurrentWindowExtended.HasExtendedStyles();
-             }, Config.Instance.AppSettings.SlowWindowDetection ? 10 : 2);
+             }, Config.Instance.AppSettings.WindowDetectionInterval);
             return targetable;
         }
 

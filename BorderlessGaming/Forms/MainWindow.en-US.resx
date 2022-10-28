@@ -119,122 +119,162 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnMakeBorderless.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 87</value>
+    <value>4, 135</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnMakeBorderless.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="btnMakeBorderless.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 36</value>
-  </data>
-  <data name="toolStripByTheWindowTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>248, 22</value>
-  </data>
-  <data name="toolStripByRegex.Size" type="System.Drawing.Size, System.Drawing">
-    <value>248, 22</value>
-  </data>
-  <data name="toolStripByProcess.Size" type="System.Drawing.Size, System.Drawing">
-    <value>248, 22</value>
-  </data>
-  <data name="contextAddToFavs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 22</value>
-  </data>
-  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 6</value>
-  </data>
-  <data name="contextBorderless.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 22</value>
-  </data>
-  <data name="contextBorderlessOn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 22</value>
-  </data>
-  <data name="toolStripSetWindowTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 22</value>
-  </data>
-  <data name="toolStripMenuItem8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 6</value>
-  </data>
-  <data name="toolStripHideProcess.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 22</value>
+    <value>56, 55</value>
   </data>
   <data name="processContext.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 126</value>
+    <value>253, 176</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="lstProcesses.ItemHeight" type="System.Int32, mscorlib">
-    <value>13</value>
+    <value>20</value>
+  </data>
+  <data name="lstProcesses.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 54</value>
+  </data>
+  <data name="lstProcesses.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="lstProcesses.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 224</value>
+    <value>313, 344</value>
+  </data>
+  <data name="contextAddToFavs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 32</value>
+  </data>
+  <data name="toolStripByTheWindowTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>374, 34</value>
+  </data>
+  <data name="toolStripByRegex.Size" type="System.Drawing.Size, System.Drawing">
+    <value>374, 34</value>
+  </data>
+  <data name="toolStripByProcess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>374, 34</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 6</value>
+  </data>
+  <data name="contextBorderless.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 32</value>
+  </data>
+  <data name="contextBorderlessOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 32</value>
+  </data>
+  <data name="toolStripSetWindowTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 32</value>
+  </data>
+  <data name="toolStripMenuItem8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>249, 6</value>
+  </data>
+  <data name="toolStripHideProcess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 32</value>
+  </data>
+  <data name="contextFavScreen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 32</value>
+  </data>
+  <data name="addSelectedItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 5</value>
+  </data>
+  <data name="addSelectedItem.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="addSelectedItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 36</value>
-  </data>
-  <data name="toolStripFullScreen.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
-  </data>
-  <data name="toolStripNoSizeChange.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
-  </data>
-  <data name="toolStripSetSetWindowSize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
-  </data>
-  <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 6</value>
-  </data>
-  <data name="toolStripAutomaximize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
-  </data>
-  <data name="toolStripAdjustWindowBounds.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
-  </data>
-  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 6</value>
-  </data>
-  <data name="toolStripAlwaysOnTop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
-  </data>
-  <data name="toolStripDelayBorderless.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
-  </data>
-  <data name="toolStripHideMouseCursor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
-  </data>
-  <data name="toolStripHideWindowsTaskbar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
-  </data>
-  <data name="toolStripRemoveMenus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
-  </data>
-  <data name="toolStripMenuItem9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 6</value>
-  </data>
-  <data name="contextRemoveFromFavs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>207, 22</value>
+    <value>56, 55</value>
   </data>
   <data name="mnuFavoritesContext.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 308</value>
+    <value>287, 438</value>
   </data>
   <data name="lstFavorites.ItemHeight" type="System.Int32, mscorlib">
-    <value>13</value>
+    <value>20</value>
+  </data>
+  <data name="lstFavorites.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 54</value>
+  </data>
+  <data name="lstFavorites.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="lstFavorites.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 224</value>
+    <value>314, 344</value>
+  </data>
+  <data name="toolStripFullScreen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 32</value>
+  </data>
+  <data name="toolStripNoSizeChange.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 32</value>
+  </data>
+  <data name="toolStripSetSetWindowSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 32</value>
+  </data>
+  <data name="toolStripMenuItem6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 6</value>
+  </data>
+  <data name="toolStripAutomaximize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 32</value>
+  </data>
+  <data name="toolStripAdjustWindowBounds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 32</value>
+  </data>
+  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 6</value>
+  </data>
+  <data name="toolStripAlwaysOnTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 32</value>
+  </data>
+  <data name="toolStripDelayBorderless.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 32</value>
+  </data>
+  <data name="toolStripHideMouseCursor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 32</value>
+  </data>
+  <data name="toolStripHideWindowsTaskbar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 32</value>
+  </data>
+  <data name="toolStripRemoveMenus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 32</value>
+  </data>
+  <data name="toolStripMenuItem9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>283, 6</value>
+  </data>
+  <data name="toolStripMuteInBackground.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 32</value>
+  </data>
+  <data name="contextRemoveFromFavs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>286, 32</value>
   </data>
   <data name="btnRemoveFavorite.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 45</value>
+    <value>4, 70</value>
+  </data>
+  <data name="btnRemoveFavorite.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="btnRemoveFavorite.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 36</value>
+    <value>56, 55</value>
   </data>
-  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
+  <data name="processLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 20</value>
   </data>
-  <data name="toolStripMenuItem7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 6</value>
+  <data name="processLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
-  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
+  <data name="processLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 29</value>
+  </data>
+  <data name="favoritesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>388, 20</value>
+  </data>
+  <data name="favoritesLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="favoritesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 29</value>
   </data>
   <data name="trayIconContextMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 54</value>
+    <value>266, 74</value>
   </data>
   <data name="trayIcon.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -721,224 +761,170 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
   </data>
-  <data name="toolStripRunOnStartup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 22</value>
+  <data name="openToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 32</value>
   </data>
-  <data name="toolStripCheckForUpdates.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 22</value>
+  <data name="toolStripMenuItem7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 6</value>
   </data>
-  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>313, 6</value>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 32</value>
   </data>
-  <data name="toolStripGlobalHotkey.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 22</value>
+  <data name="mnuMain.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 48</value>
   </data>
-  <data name="toolStripMouseLock.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 22</value>
-  </data>
-  <data name="toolStripMouseHide.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 22</value>
-  </data>
-  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>313, 6</value>
-  </data>
-  <data name="toolStripMinimizedToTray.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 22</value>
-  </data>
-  <data name="toolStripCloseToTray.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 22</value>
-  </data>
-  <data name="toolStripHideBalloonTips.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 22</value>
-  </data>
-  <data name="toolStripSlowWindowDetection.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 22</value>
-  </data>
-  <data name="toolStripViewFullProcessDetails.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 22</value>
-  </data>
-  <data name="toolStripMenuItem10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>313, 6</value>
-  </data>
-  <data name="toolStripRestoreProcesses.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 22</value>
+  <data name="mnuMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>706, 48</value>
   </data>
   <data name="toolStripOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 27</value>
+    <value>92, 42</value>
   </data>
-  <data name="toolStripPauseAutomaticProcessing.Size" type="System.Drawing.Size, System.Drawing">
-    <value>252, 22</value>
+  <data name="toolStripRunOnStartup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 34</value>
   </data>
-  <data name="toolStripOpenDataFolder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>252, 22</value>
+  <data name="toolStripLanguages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 34</value>
   </data>
-  <data name="toolStripMenuItem11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>249, 6</value>
+  <data name="toolStripCheckForUpdates.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 34</value>
   </data>
-  <data name="toolStripToggleMouseCursorVisibility.Size" type="System.Drawing.Size, System.Drawing">
-    <value>252, 22</value>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 6</value>
   </data>
-  <data name="toolStripToggleWindowsTaskbar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>252, 22</value>
+  <data name="toolStripGlobalHotkey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 34</value>
   </data>
-  <data name="toolStripMenuItem12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>249, 6</value>
+  <data name="toolStripMouseLock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 34</value>
   </data>
-  <data name="toolStripFullApplicationRefresh.Size" type="System.Drawing.Size, System.Drawing">
-    <value>252, 22</value>
+  <data name="toolStripMouseHide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 34</value>
+  </data>
+  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 6</value>
+  </data>
+  <data name="toolStripMinimizedToTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 34</value>
+  </data>
+  <data name="toolStripCloseToTray.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 34</value>
+  </data>
+  <data name="toolStripHideBalloonTips.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 34</value>
+  </data>
+  <data name="toolStripSlowWindowDetection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 34</value>
+  </data>
+  <data name="toolStripWindowDetectionInterval.Text" xml:space="preserve">
+    <value>Set Window Detection &amp;Interval</value>
+  </data>
+  <data name="toolStripViewFullProcessDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 34</value>
+  </data>
+  <data name="toolStripMenuItem10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 6</value>
+  </data>
+  <data name="toolStripRestoreProcesses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>478, 34</value>
   </data>
   <data name="toolsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 27</value>
+    <value>69, 42</value>
   </data>
-  <data name="toolStripUsageGuide.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
+  <data name="toolStripPauseAutomaticProcessing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 34</value>
   </data>
-  <data name="toolStripRegexReference.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
+  <data name="toolStripOpenDataFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 34</value>
   </data>
-  <data name="toolStripMenuItem13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 6</value>
+  <data name="toolStripMenuItem11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>377, 6</value>
   </data>
-  <data name="toolStripReportBug.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
+  <data name="toolStripToggleMouseCursorVisibility.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 34</value>
   </data>
-  <data name="toolStripSupportUs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
+  <data name="toolStripToggleWindowsTaskbar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 34</value>
   </data>
-  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 6</value>
+  <data name="toolStripMenuItem12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>377, 6</value>
   </data>
-  <data name="toolStripAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 22</value>
+  <data name="toolStripFullApplicationRefresh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 34</value>
   </data>
   <data name="toolStripInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 27</value>
+    <value>65, 42</value>
   </data>
-  <data name="rainwayStrip.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-        fxxJPk72nkr8AAAAAElFTkSuQmCC
-</value>
+  <data name="toolStripUsageGuide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 34</value>
+  </data>
+  <data name="toolStripRegexReference.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 34</value>
+  </data>
+  <data name="toolStripMenuItem13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 6</value>
+  </data>
+  <data name="toolStripReportBug.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 34</value>
+  </data>
+  <data name="toolStripSupportUs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 34</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 6</value>
+  </data>
+  <data name="toolStripAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 34</value>
   </data>
   <data name="rainwayStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 27</value>
+    <value>204, 42</value>
   </data>
   <data name="rainwayStrip.Text" xml:space="preserve">
     <value>Check Out Rainway</value>
   </data>
-  <data name="mnuMain.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 31</value>
-  </data>
-  <data name="mnuMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>471, 31</value>
-  </data>
-  <data name="btnRestoreWindow.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 129</value>
-  </data>
-  <data name="btnRestoreWindow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 36</value>
-  </data>
-  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 230</value>
+  <data name="rainwayStrip.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 31</value>
+    <value>0, 48</value>
+  </data>
+  <data name="tableLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>471, 241</value>
+    <value>706, 371</value>
   </data>
-  <data name="statusLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 17</value>
+  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 49</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 354</value>
+  </data>
+  <data name="btnRestoreWindow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 200</value>
+  </data>
+  <data name="btnRestoreWindow.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="btnRestoreWindow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 55</value>
   </data>
   <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 274</value>
+    <value>0, 423</value>
+  </data>
+  <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>706, 32</value>
+  </data>
+  <data name="statusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 25</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>9, 20</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>471, 296</value>
+    <value>706, 455</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1426,6 +1412,6 @@
 </value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>425, 319</value>
+    <value>626, 461</value>
   </data>
 </root>

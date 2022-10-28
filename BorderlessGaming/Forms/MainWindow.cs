@@ -912,6 +912,7 @@ fav.PositionX.ToString()), out int favPositionX);
             toolStripCloseToTray.Checked = settings.CloseToTray;
             toolStripViewFullProcessDetails.Checked = settings.ViewAllProcessDetails;
             toolStripSlowWindowDetection.Checked = settings.SlowWindowDetection;
+            numericUpDownWindowDetectionInterval.Value = settings.WindowDetectionInterval;
 
             // minimize the window if desired (hiding done in Shown)
             if (settings.StartMinimized || Config.Instance.StartupOptions.Minimize)
@@ -1229,6 +1230,12 @@ fav.PositionX.ToString()), out int favPositionX);
         private void checkOutRainwayToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Tools.GotoSite("https://rainway.io/?ref=borderlessgaming3");
+        }
+
+        private void numericUpDownWindowDetectionInterval_ValueChanged(object sender, EventArgs e)
+        {
+            Config.Instance.AppSettings.WindowDetectionInterval = (int)numericUpDownWindowDetectionInterval.Value;
+            Config.Save();
         }
     }
 }

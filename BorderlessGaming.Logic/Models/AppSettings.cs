@@ -48,5 +48,9 @@ namespace BorderlessGaming.Logic.Models
         [DefaultValue(true)]
         public bool ShowAdOnStart { get; set; } = true;
 
+        [ProtoMember(14)]
+        [DefaultValue(10)]
+        public int WindowDetectionInterval { get; set; } = 10;
+
     }
 }

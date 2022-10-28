@@ -83,7 +83,7 @@ namespace BorderlessGaming.Logic.Core
                         }
                     }
                 }
-                await Task.Delay(TimeSpan.FromSeconds((Config.Instance.AppSettings.SlowWindowDetection ? 10 : 3)));
+                await Task.Delay(TimeSpan.FromSeconds(Config.Instance.AppSettings.WindowDetectionInterval));
             }
         }
 
@@ -190,7 +190,8 @@ namespace BorderlessGaming.Logic.Core
                     if (!process.NoAccess)
                     {
                         await TaskUtilities.StartTaskAndWait(() => { currentTitle = Native.GetWindowTitle(process.WindowHandle); },
-                            Config.Instance.AppSettings.SlowWindowDetection ? 10 : 2); shouldBePruned = process.WindowTitle != currentTitle;
+                            Config.Instance.AppSettings.WindowDetectionInterval);
+                        shouldBePruned = process.WindowTitle != currentTitle;
                     }
                 }
                 if (shouldBePruned)
