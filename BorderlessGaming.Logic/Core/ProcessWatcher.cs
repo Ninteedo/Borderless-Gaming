@@ -169,30 +169,22 @@ namespace BorderlessGaming.Logic.Core
 
         private async Task UpdateProcesses()
         {
-            if (!AutoHandleFavorites)
+            if (!AutoHandleFavorites
+                && _form != null
+                && (_form.WindowState == FormWindowState.Minimized || !_form.Visible))
             {
-                if (_form != null)
-                {
-                    if (_form.WindowState == FormWindowState.Minimized || !_form.Visible)
-                    {
-                        return;
-                    }
-                }
+                return;
             }
-            foreach (var process in Processes.ToList())
+            for (var index = 0; index < Processes.Count; index++)
             {
-                var index = Processes.FindIndex(x => x.WindowHandle == process.WindowHandle);
+                var process = Processes[index];
                 var shouldBePruned = process.ProcessHasExited;
-                if (!shouldBePruned)
+                if (!shouldBePruned && !process.NoAccess)
                 {
                     var currentTitle = "";
-
-                    if (!process.NoAccess)
-                    {
-                        await TaskUtilities.StartTaskAndWait(() => { currentTitle = Native.GetWindowTitle(process.WindowHandle); },
-                            Config.Instance.AppSettings.WindowDetectionInterval);
-                        shouldBePruned = process.WindowTitle != currentTitle;
-                    }
+                    await TaskUtilities.StartTaskAndWait(() => { currentTitle = Native.GetWindowTitle(process.WindowHandle); },
+                        Config.Instance.AppSettings.WindowDetectionInterval);
+                    shouldBePruned = process.WindowTitle != currentTitle;
                 }
                 if (shouldBePruned)
                 {
@@ -208,17 +200,10 @@ namespace BorderlessGaming.Logic.Core
             {
                 try
                 {
-                    if (!string.IsNullOrWhiteSpace(pd?.Proc?.ProcessName))
+                    if (!(string.IsNullOrWhiteSpace(pd?.Proc?.ProcessName)
+                          || Config.Instance.IsHidden(pd?.Proc?.ProcessName)
+                          || Processes.Any(p => p.Proc.Id == pd.Proc.Id && p.WindowTitle == pd.WindowTitle)))
                     {
-                        if (Config.Instance.IsHidden(pd?.Proc?.ProcessName))
-                        {
-                            return;
-                        }
-                        if (Processes.Select(p => p.Proc.Id).Contains(pd.Proc.Id) &&
-                            Processes.Select(p => p.WindowTitle).Contains(pd.WindowTitle))
-                        {
-                            return;
-                        }
                         Processes.Add(pd);
                         _callback(pd, false);
                     }
